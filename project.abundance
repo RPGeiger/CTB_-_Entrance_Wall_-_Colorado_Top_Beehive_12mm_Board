@@ -51,7 +51,8 @@
         },
         {
           "name": "RotX",
-          "ioValue": 0
+          "ioValue": 0,
+          "currentEquation": "0"
         },
         {
           "name": "RotY",
