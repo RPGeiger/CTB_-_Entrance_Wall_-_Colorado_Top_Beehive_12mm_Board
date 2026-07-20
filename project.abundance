@@ -101,6 +101,41 @@
       "SVGwidth": 10
     },
     {
+      "atomType": "Gcode",
+      "x": 0.5854166666666667,
+      "y": 0.47044917257683216,
+      "uniqueID": "id-465",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 2
+        },
+        {
+          "name": "Speed",
+          "ioValue": 800
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 1
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
+          "currentEquation": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board"
+        }
+      ],
+      "partName": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
+      "sortDirection": "Left"
+    },
+    {
       "atomType": "GitHubMolecule",
       "x": 0.8941333333333334,
       "y": 0.0938534278959811,
@@ -564,9 +599,9 @@
     },
     {
       "atomType": "Gcode",
-      "x": 0.5854166666666667,
-      "y": 0.47044917257683216,
-      "uniqueID": "id-465",
+      "x": 0.44375,
+      "y": 0.14184397163120568,
+      "uniqueID": "id-543",
       "ioValues": [
         {
           "name": "geometry",
@@ -578,15 +613,15 @@
         },
         {
           "name": "Passes",
-          "ioValue": 2
+          "ioValue": 1
         },
         {
           "name": "Speed",
-          "ioValue": 800
+          "ioValue": 1000
         },
         {
           "name": "Cut Through",
-          "ioValue": 1
+          "ioValue": 0
         },
         {
           "name": "Part Name",
@@ -596,6 +631,22 @@
       ],
       "partName": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
       "sortDirection": "Left"
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3494791666666667,
+      "y": 0.15130023640661938,
+      "uniqueID": "id-550",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 13
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -603,6 +654,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-88",
       "ap2ID": "id-220"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-88",
+      "ap2ID": "id-550"
     },
     {
       "ap2Name": "retain",
@@ -628,6 +684,11 @@
       "ap2Name": "remove",
       "ap1ID": "id-113",
       "ap2ID": "id-97"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-550",
+      "ap2ID": "id-543"
     }
   ],
   "unitsKey": "MM",
