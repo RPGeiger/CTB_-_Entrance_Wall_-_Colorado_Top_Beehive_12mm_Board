@@ -1,597 +1,636 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-40",
-    "name": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
-    "topLevel": true,
-    "allAtoms": [
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-40",
+  "name": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-41",
+      "ioValues": [
         {
-            "atomType": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": "id-41",
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ]
-        },
-        {
-            "atomType": "Import",
-            "x": 0.1088,
-            "y": 0.31678486997635935,
-            "uniqueID": "id-88",
-            "fileName": "Eingangswand-Basis.svg",
-            "name": "Import",
-            "type": "SVG",
-            "repoOwner": "RPGeiger",
-            "repoName": "CTB_-_Colorado_Top_Beehive",
-            "SVGwidth": 898.1
-        },
-        {
-            "atomType": "Extrude",
-            "x": 0.2272,
-            "y": 0.20803782505910165,
-            "uniqueID": "id-220",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 12,
-                    "currentEquation": "12"
-                }
-            ]
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "x": 0.8941333333333334,
-            "y": 0.0938534278959811,
-            "uniqueID": "id-306",
-            "name": "Move-rotate",
-            "ioValues": [
-                {
-                    "name": "MoveX",
-                    "ioValue": 0
-                },
-                {
-                    "name": "MoveY",
-                    "ioValue": 0
-                },
-                {
-                    "name": "MoveZ",
-                    "ioValue": 0
-                },
-                {
-                    "name": "RotX",
-                    "ioValue": 0
-                },
-                {
-                    "name": "RotY",
-                    "ioValue": 0
-                },
-                {
-                    "name": "RotZ",
-                    "ioValue": 0
-                },
-                {
-                    "name": "Shape",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "id-307",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.15384615384615385,
-                    "uniqueID": "id-308",
-                    "name": "MoveX",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.24615384615384617,
-                    "uniqueID": "id-309",
-                    "name": "MoveY",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.3384615384615385,
-                    "uniqueID": "id-310",
-                    "name": "MoveZ",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.4307692307692308,
-                    "uniqueID": "id-311",
-                    "name": "RotX",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.5230769230769231,
-                    "uniqueID": "id-312",
-                    "name": "RotY",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.6153846153846154,
-                    "uniqueID": "id-313",
-                    "name": "RotZ",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.7076923076923077,
-                    "uniqueID": "id-314",
-                    "name": "Shape",
-                    "type": "geometry"
-                },
-                {
-                    "atomType": "Move",
-                    "x": 0.4867109634551495,
-                    "y": 0.33540372670807456,
-                    "uniqueID": "id-315",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "x": 0.7350498338870433,
-                    "y": 0.6490683229813664,
-                    "uniqueID": "id-316",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap2Name": "xDist",
-                    "ap1ID": "id-308",
-                    "ap2ID": "id-315"
-                },
-                {
-                    "ap2Name": "yDist",
-                    "ap1ID": "id-309",
-                    "ap2ID": "id-315"
-                },
-                {
-                    "ap2Name": "zDist",
-                    "ap1ID": "id-310",
-                    "ap2ID": "id-315"
-                },
-                {
-                    "ap2Name": "x-axis degrees",
-                    "ap1ID": "id-311",
-                    "ap2ID": "id-316"
-                },
-                {
-                    "ap2Name": "y-axis degrees",
-                    "ap1ID": "id-312",
-                    "ap2ID": "id-316"
-                },
-                {
-                    "ap2Name": "z-axis degrees",
-                    "ap1ID": "id-313",
-                    "ap2ID": "id-316"
-                },
-                {
-                    "ap2Name": "geometry",
-                    "ap1ID": "id-314",
-                    "ap2ID": "id-315"
-                },
-                {
-                    "ap2Name": "geometry",
-                    "ap1ID": "id-315",
-                    "ap2ID": "id-316"
-                },
-                {
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "id-316",
-                    "ap2ID": "id-307"
-                }
-            ],
-            "parentRepo": {
-                "lastFoundGit": "2026-07-19T02:23:39.092Z",
-                "privateRepo": false,
-                "repoName": "Move-rotate",
-                "dateCreated": "2025-10-12T19:15:23Z",
-                "likes": 0,
-                "readMe": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": "622f58aa-9660-4173-b35d-318e70614e9a",
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/alzatin/Move-rotate",
-                "topics": [
-                    "abundance-tool"
-                ],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739537",
-                "ranking": 1.2,
-                "searchField": "move-rotate alzatin moves and rotates  abundance-tool",
-                "owner": "alzatin",
-                "description": "Moves and rotates ",
-                "contentURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.svg?sanitize=true",
-                "isLocal": false
-            },
-            "unitsKey": "Inches",
-            "fileTypeVersion": 1,
-            "lastReloadedFromGithubAt": 1784450848987
-        },
-        {
-            "atomType": "GitHubMolecule",
-            "x": 0.35200000000000004,
-            "y": 0.8297872340425533,
-            "uniqueID": "id-113",
-            "name": "Move-rotate",
-            "ioValues": [
-                {
-                    "name": "MoveX",
-                    "ioValue": 0
-                },
-                {
-                    "name": "MoveY",
-                    "ioValue": 107.3
-                },
-                {
-                    "name": "MoveZ",
-                    "ioValue": 7
-                },
-                {
-                    "name": "RotX",
-                    "ioValue": 0
-                },
-                {
-                    "name": "RotY",
-                    "ioValue": 0
-                },
-                {
-                    "name": "RotZ",
-                    "ioValue": 0
-                },
-                {
-                    "name": "Shape",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": "id-103",
-                    "ioValues": [
-                        {
-                            "name": "number or geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.15384615384615385,
-                    "uniqueID": "id-104",
-                    "name": "MoveX",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.24615384615384617,
-                    "uniqueID": "id-105",
-                    "name": "MoveY",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.3384615384615385,
-                    "uniqueID": "id-106",
-                    "name": "MoveZ",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.4307692307692308,
-                    "uniqueID": "id-107",
-                    "name": "RotX",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.5230769230769231,
-                    "uniqueID": "id-108",
-                    "name": "RotY",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.6153846153846154,
-                    "uniqueID": "id-109",
-                    "name": "RotZ",
-                    "type": "number"
-                },
-                {
-                    "atomType": "Input",
-                    "x": 0.025384615384615384,
-                    "y": 0.7076923076923077,
-                    "uniqueID": "id-110",
-                    "name": "Shape",
-                    "type": "geometry"
-                },
-                {
-                    "atomType": "Move",
-                    "x": 0.4867109634551495,
-                    "y": 0.33540372670807456,
-                    "uniqueID": "id-111",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 107.3
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "x": 0.7350498338870433,
-                    "y": 0.6490683229813664,
-                    "uniqueID": "id-112",
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "__GEOMETRY_INPUT__"
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap2Name": "xDist",
-                    "ap1ID": "id-104",
-                    "ap2ID": "id-111"
-                },
-                {
-                    "ap2Name": "yDist",
-                    "ap1ID": "id-105",
-                    "ap2ID": "id-111"
-                },
-                {
-                    "ap2Name": "zDist",
-                    "ap1ID": "id-106",
-                    "ap2ID": "id-111"
-                },
-                {
-                    "ap2Name": "x-axis degrees",
-                    "ap1ID": "id-107",
-                    "ap2ID": "id-112"
-                },
-                {
-                    "ap2Name": "y-axis degrees",
-                    "ap1ID": "id-108",
-                    "ap2ID": "id-112"
-                },
-                {
-                    "ap2Name": "z-axis degrees",
-                    "ap1ID": "id-109",
-                    "ap2ID": "id-112"
-                },
-                {
-                    "ap2Name": "geometry",
-                    "ap1ID": "id-110",
-                    "ap2ID": "id-111"
-                },
-                {
-                    "ap2Name": "geometry",
-                    "ap1ID": "id-111",
-                    "ap2ID": "id-112"
-                },
-                {
-                    "ap2Name": "number or geometry",
-                    "ap1ID": "id-112",
-                    "ap2ID": "id-103"
-                }
-            ],
-            "parentRepo": {
-                "lastFoundGit": "2026-07-19T02:23:39.092Z",
-                "privateRepo": false,
-                "repoName": "Move-rotate",
-                "dateCreated": "2025-10-12T19:15:23Z",
-                "likes": 0,
-                "readMe": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/README.md?sanitize=true",
-                "yyyy": 2025,
-                "topMoleculeID": "622f58aa-9660-4173-b35d-318e70614e9a",
-                "githubMoleculesUsed": [],
-                "html_url": "https://github.com/alzatin/Move-rotate",
-                "topics": [
-                    "abundance-tool"
-                ],
-                "parentRepo": null,
-                "forks": 0,
-                "dateModified": "739537",
-                "ranking": 1.2,
-                "searchField": "move-rotate alzatin moves and rotates  abundance-tool",
-                "owner": "alzatin",
-                "description": "Moves and rotates ",
-                "contentURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.abundance?sanitize=true",
-                "svgURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.svg?sanitize=true",
-                "isLocal": false
-            },
-            "unitsKey": "Inches",
-            "fileTypeVersion": 1,
-            "lastReloadedFromGithubAt": 1784450848987
-        },
-        {
-            "atomType": "Extrude",
-            "x": 0.23413333333333333,
-            "y": 0.5508274231678487,
-            "uniqueID": "id-224",
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "height",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
-            "atomType": "Difference",
-            "x": 0.5018666666666667,
-            "y": 0.47517730496453897,
-            "uniqueID": "id-97",
-            "ioValues": [
-                {
-                    "name": "retain",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                    "name": "remove",
-                    "ioValue": "__GEOMETRY_INPUT__"
-                }
-            ]
-        },
-        {
-            "atomType": "Import",
-            "x": 0.1104,
-            "y": 0.7801418439716312,
-            "uniqueID": "id-391",
-            "fileName": "Eingangswand-Pocket.svg",
-            "name": "Import",
-            "type": "SVG",
-            "repoOwner": "RPGeiger",
-            "repoName": "CTB_-_Colorado_Top_Beehive",
-            "SVGwidth": 202.7
-        },
-        {
-            "atomType": "Import",
-            "x": 0.8933333333333334,
-            "y": 0.30969267139479906,
-            "uniqueID": "id-393",
-            "fileName": null,
-            "name": "Import",
-            "type": null,
-            "SVGwidth": 10
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         }
-    ],
-    "allConnectors": [
+      ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.1088,
+      "y": 0.31678486997635935,
+      "uniqueID": "id-88",
+      "fileName": "Eingangswand-Basis.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "RPGeiger",
+      "repoName": "CTB_-_Colorado_Top_Beehive",
+      "SVGwidth": 898.1
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.2272,
+      "y": 0.20803782505910165,
+      "uniqueID": "id-220",
+      "ioValues": [
         {
-            "ap2Name": "geometry",
-            "ap1ID": "id-88",
-            "ap2ID": "id-220"
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
         },
         {
-            "ap2Name": "retain",
-            "ap1ID": "id-220",
-            "ap2ID": "id-97"
-        },
-        {
-            "ap2Name": "remove",
-            "ap1ID": "id-113",
-            "ap2ID": "id-97"
-        },
-        {
-            "ap2Name": "Shape",
-            "ap1ID": "id-224",
-            "ap2ID": "id-113"
-        },
-        {
-            "ap2Name": "geometry",
-            "ap1ID": "id-391",
-            "ap2ID": "id-224"
+          "name": "height",
+          "ioValue": 12
         }
-    ],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.23413333333333333,
+      "y": 0.5508274231678487,
+      "uniqueID": "id-224",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.4447916666666667,
+      "y": 0.46808510638297873,
+      "uniqueID": "id-97",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0.1104,
+      "y": 0.7801418439716312,
+      "uniqueID": "id-391",
+      "fileName": "Eingangswand-Pocket.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "RPGeiger",
+      "repoName": "CTB_-_Colorado_Top_Beehive",
+      "SVGwidth": 202.7
+    },
+    {
+      "atomType": "Import",
+      "x": 0.8933333333333334,
+      "y": 0.30969267139479906,
+      "uniqueID": "id-393",
+      "fileName": null,
+      "name": "Import",
+      "type": null,
+      "SVGwidth": 10
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.8941333333333334,
+      "y": 0.0938534278959811,
+      "uniqueID": "id-306",
+      "name": "Move-rotate",
+      "ioValues": [
+        {
+          "name": "MoveX",
+          "ioValue": 0
+        },
+        {
+          "name": "MoveY",
+          "ioValue": 0
+        },
+        {
+          "name": "MoveZ",
+          "ioValue": 0
+        },
+        {
+          "name": "RotX",
+          "ioValue": 0
+        },
+        {
+          "name": "RotY",
+          "ioValue": 0
+        },
+        {
+          "name": "RotZ",
+          "ioValue": 0
+        },
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-307",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-308",
+          "name": "MoveX",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-309",
+          "name": "MoveY",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-310",
+          "name": "MoveZ",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.4307692307692308,
+          "uniqueID": "id-311",
+          "name": "RotX",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.5230769230769231,
+          "uniqueID": "id-312",
+          "name": "RotY",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.6153846153846154,
+          "uniqueID": "id-313",
+          "name": "RotZ",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.7076923076923077,
+          "uniqueID": "id-314",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4867109634551495,
+          "y": 0.33540372670807456,
+          "uniqueID": "id-315",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.7350498338870433,
+          "y": 0.6490683229813664,
+          "uniqueID": "id-316",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-308",
+          "ap2ID": "id-315"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-309",
+          "ap2ID": "id-315"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-310",
+          "ap2ID": "id-315"
+        },
+        {
+          "ap2Name": "x-axis degrees",
+          "ap1ID": "id-311",
+          "ap2ID": "id-316"
+        },
+        {
+          "ap2Name": "y-axis degrees",
+          "ap1ID": "id-312",
+          "ap2ID": "id-316"
+        },
+        {
+          "ap2Name": "z-axis degrees",
+          "ap1ID": "id-313",
+          "ap2ID": "id-316"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-314",
+          "ap2ID": "id-315"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-315",
+          "ap2ID": "id-316"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-316",
+          "ap2ID": "id-307"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-07-19T02:23:39.092Z",
+        "privateRepo": false,
+        "repoName": "Move-rotate",
+        "dateCreated": "2025-10-12T19:15:23Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "622f58aa-9660-4173-b35d-318e70614e9a",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Move-rotate",
+        "topics": [
+          "abundance-tool"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739537",
+        "ranking": 1.2,
+        "searchField": "move-rotate alzatin moves and rotates  abundance-tool",
+        "owner": "alzatin",
+        "description": "Moves and rotates ",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Inches",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1784450848987
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "x": 0.35200000000000004,
+      "y": 0.8297872340425533,
+      "uniqueID": "id-113",
+      "name": "Move-rotate",
+      "ioValues": [
+        {
+          "name": "MoveX",
+          "ioValue": 0
+        },
+        {
+          "name": "MoveY",
+          "ioValue": 107.3
+        },
+        {
+          "name": "MoveZ",
+          "ioValue": 7
+        },
+        {
+          "name": "RotX",
+          "ioValue": 0
+        },
+        {
+          "name": "RotY",
+          "ioValue": 0
+        },
+        {
+          "name": "RotZ",
+          "ioValue": 0
+        },
+        {
+          "name": "Shape",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-103",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-104",
+          "name": "MoveX",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-105",
+          "name": "MoveY",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-106",
+          "name": "MoveZ",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.4307692307692308,
+          "uniqueID": "id-107",
+          "name": "RotX",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.5230769230769231,
+          "uniqueID": "id-108",
+          "name": "RotY",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.6153846153846154,
+          "uniqueID": "id-109",
+          "name": "RotZ",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.7076923076923077,
+          "uniqueID": "id-110",
+          "name": "Shape",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4867109634551495,
+          "y": 0.33540372670807456,
+          "uniqueID": "id-111",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 107.3
+            },
+            {
+              "name": "zDist",
+              "ioValue": 7
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.7350498338870433,
+          "y": 0.6490683229813664,
+          "uniqueID": "id-112",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "xDist",
+          "ap1ID": "id-104",
+          "ap2ID": "id-111"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-105",
+          "ap2ID": "id-111"
+        },
+        {
+          "ap2Name": "zDist",
+          "ap1ID": "id-106",
+          "ap2ID": "id-111"
+        },
+        {
+          "ap2Name": "x-axis degrees",
+          "ap1ID": "id-107",
+          "ap2ID": "id-112"
+        },
+        {
+          "ap2Name": "y-axis degrees",
+          "ap1ID": "id-108",
+          "ap2ID": "id-112"
+        },
+        {
+          "ap2Name": "z-axis degrees",
+          "ap1ID": "id-109",
+          "ap2ID": "id-112"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-110",
+          "ap2ID": "id-111"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-111",
+          "ap2ID": "id-112"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-112",
+          "ap2ID": "id-103"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2026-07-19T02:23:39.092Z",
+        "privateRepo": false,
+        "repoName": "Move-rotate",
+        "dateCreated": "2025-10-12T19:15:23Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": "622f58aa-9660-4173-b35d-318e70614e9a",
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Move-rotate",
+        "topics": [
+          "abundance-tool"
+        ],
+        "parentRepo": null,
+        "forks": 0,
+        "dateModified": "739537",
+        "ranking": 1.2,
+        "searchField": "move-rotate alzatin moves and rotates  abundance-tool",
+        "owner": "alzatin",
+        "description": "Moves and rotates ",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Move-rotate/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "Inches",
+      "fileTypeVersion": 1,
+      "lastReloadedFromGithubAt": 1784450848987
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.5854166666666667,
+      "y": 0.47044917257683216,
+      "uniqueID": "id-465",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 6.35
+        },
+        {
+          "name": "Passes",
+          "ioValue": 2
+        },
+        {
+          "name": "Speed",
+          "ioValue": 800
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 1
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
+          "currentEquation": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board"
+        }
+      ],
+      "partName": "CTB_-_Entrance_Wall_-_Colorado_Top_Beehive_12mm_Board",
+      "sortDirection": "Left"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-88",
+      "ap2ID": "id-220"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-220",
+      "ap2ID": "id-97"
+    },
+    {
+      "ap2Name": "Shape",
+      "ap1ID": "id-224",
+      "ap2ID": "id-113"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-97",
+      "ap2ID": "id-465"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-391",
+      "ap2ID": "id-224"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-113",
+      "ap2ID": "id-97"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
